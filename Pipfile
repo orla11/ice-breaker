@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "~=0.0.300"
+openai = "*"
+requests = "*"
+black = "*"
+google-search-results = "*"
+tweepy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
