@@ -32,7 +32,7 @@ def ice_break(name: str) -> PersonIntel:
         \n{format_instructions}
     """
 
-    summary_prompt_template = Tuple[PromptTemplate, str](
+    summary_prompt_template = PromptTemplate(
         input_variables=["linkedin_information", "twitter_information"],
         template=summary_template,
         partial_variables={
